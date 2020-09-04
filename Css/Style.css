@@ -1,6 +1,49 @@
+body {
+    background-color: #444444;
+}
+
+body :before {
+    background-image: url("thresh_img.png");
+}
+
+.topnav {
+    overflow: hidden;
+    background:	#383838;
+    border-radius: 20px;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:link {
+    color: #00FF00;
+}
+
+
+.topnav a:hover {
+    background-color: black;
+    color: #00FF00;
+}
+
+.topnav a:active {
+    color: #00FF00;
+}
+
+.topnav a:visited {
+    color: #00FF00;
+}
+  
+
 img {
     background-repeat: no-repeat;
     position: relative;
     max-width: 100%;
-    height: auto;
+    width: 60%;
+    float: right;
+    padding-right: 5%;
 }
